@@ -49,31 +49,43 @@ h3
  color: #734A7F;
  font-size: 30px;
 }
-
-header.masthead {
-	padding:1rem;
-    background-image: url("http://lorempixel.com/1200/900/cats/");
-    background-size: cover;
-}
-nav.mainnav ul {
-	list-style:none;
-
-}
-nav.mainnav{
+a{
+    
+    text-decoration: none;
+    color:#735A7F;
     
 }
-nav.mainnav ul li a {
+ul{
+    
+    margin-bottom; 15px;
+    
+}
+li{
+    list-style-type: none;
+	text-align: center;
+    
+}
+.wrapper{
+    min-width: 300px;
+    background-color:#7F7F7F;   
+}
+.masthead {
+    text-align: center;
+	padding:0 15px;
+    background-image: url("http://lorempixel.com/1200/900/cats/");
+    background-size: cover;
+    background-position: center;
+     
+}
+.mainnav a {
 	display:block;
-	padding: 1rem;
-	text-decoration:none;
+	padding: 8px;
 	font-weight:700;
 	background:#B890CC;
-	color:#735A7F;
-    text-align: center;
 	border-bottom:1px solid #FFFFFF;
     
 }
-nav.mainnav ul li a:hover {
+.mainnav a:hover {
 	background:#FFFFFF;
 }
 main.content {
@@ -95,6 +107,7 @@ footer.footer {
 }
 img {
 	max-width:100%;
+    margin-bottom: 5
 }
 
 @media all and (max-width: 60em) and (min-width: 35em){
@@ -117,18 +130,11 @@ img {
         padding: 1.5% 0;
     }
 
-    .content{
+    .primary{
         float: left;
         width: 63%;
     }
 
-    .primary{
-        margin-bottom: 2.5%;
-    }
-
-    .secondary{
-        margin-bottom: 2.5%;
-    }
 
     .side{
         float: right;
@@ -148,7 +154,7 @@ img {
 	h1{
 		white-space: nowrap;
 	}
-	div.wrapper {
+	.wrapper {
 		margin: 0 auto;
 		max-width:1600px;
 	    padding-top: 375px;
@@ -172,10 +178,10 @@ img {
         padding-bottom: 250px;
         background-image:url("http://lorempixel.com/200/200/cats/");
         background-repeat: no-repeat;
-        image-float;
+        background-position: auto;
         
 	}
-	main.content {
+	.primary {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
