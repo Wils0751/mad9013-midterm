@@ -22,20 +22,23 @@ h1  {
   margin: 1rem 0 1rem;
   font-weight: inherit;
   color: #735A7f;
-  font-size: 1.414rem;
+  font-size: 1.999rem;
   text-align: center;
 }
 h2{
   padding; 1rem;
   font-weight: inherit;
   color: #735A7f;
-  font-size: 1em;
-  padding: 1rem
+  font-size: 1.414rem;
+  padding: 1rem;
+  text-align: center;
 }
 h3{
   padding: 1rem;
   color: #735A7f;
-  font-size: .707rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 p {
@@ -70,7 +73,7 @@ p {
 	Color: #B890CC;
 }
 .side {
-	font-size: 0.5em;
+	font-size: 0.707rem;
 	padding:.5rem;
 }
 .primary {
@@ -104,7 +107,11 @@ img {
 		font-size: 1.999rem;
 	}
 	.wrapper {
-		margin: 0 auto;
+		margin: 0 10px 0 10px;
+	}
+	.masthead{
+		max-width: 100%;
+		
 	}
 	.mainnav ul {
 		display:table;
@@ -122,8 +129,9 @@ img {
 	.side {
 		width:37%;
 		float:right;
-		font-size: .9rem;
+		font-size: .707rem;
 	}
+	
 }
 @media all and (min-width: 60em){
 	h1 {
@@ -142,8 +150,6 @@ img {
 	}
 	.masthead {
 		padding:100px 1rem;
-		background:none; 
-		background-color: #B890CC;
 	}
 	.footer {
 		padding:1rem;
@@ -168,9 +174,7 @@ img {
 	.side {
 		width:25%;
 		float:left;
-		font-size: 1rem;
+		font-size: .8rem;
 	}
-	img {
-		display:none;
-	}
+	
 }
